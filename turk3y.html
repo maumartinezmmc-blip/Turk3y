@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turk3y | Enlaces</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Reseteo básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #050505; /* Fondo negro profundo */
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Contenedor principal estilo móvil */
+        .container {
+            width: 100%;
+            max-width: 420px;
+            padding: 50px 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Imagen de perfil */
+        .profile-image {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 2px solid #282828; /* Borde sutil para separar del fondo */
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Tipografía del encabezado y bio */
+        h1 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .bio {
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: #a3a3a3;
+            margin-bottom: 35px;
+            line-height: 1.5;
+            padding: 0 10px;
+        }
+
+        /* Contenedor de botones */
+        .links-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        /* Estilo de los botones */
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 16px 20px;
+            background-color: #005bb5; /* Azul moderno e interactivo */
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 12px; /* Bordes redondeados modernos */
+            font-weight: 500;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        /* Efecto Hover y Active (Al pasar el cursor o presionar) */
+        .link-button:hover, 
+        .link-button:active {
+            background-color: #ffffff;
+            color: #050505;
+            transform: translateY(-2px); /* Ligero efecto de elevación */
+            box-shadow: 0 6px 16px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: auto; /* Empuja el footer hacia abajo */
+            padding-top: 40px;
+        }
+
+        .footer-text {
+            font-size: 0.75rem;
+            color: #555555;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="turk3y.jpeg" alt="Turk3y" class="profile-image">
+
+        <h1>Turk3y</h1>
+        <p class="bio">Fotógrafo Profesional y Creativo. Capturando la esencia visual y el estilo a través de una perspectiva única y vanguardista.</p>
+
+        <div class="links-container">
+            <a href="https://www.instagram.com/turk3y?igsh=MXhuaHF2Y2h5NHluOQ==" target="_blank" rel="noopener noreferrer" class="link-button">
+                Instagram
+            </a>
+            
+            <a href="https://www.tiktok.com/@turk3yvisualrockstar?_r=1&_t=ZS-97XKbpYAoNA" target="_blank" rel="noopener noreferrer" class="link-button">
+                TikTok
+            </a>
+            
+            <a href="https://wa.me/qr/75UXCDJDWZUEC1" target="_blank" rel="noopener noreferrer" class="link-button">
+                WhatsApp
+            </a>
+            
+            <a href="https://share.google/vHxZqR63L1KcMig0S" target="_blank" rel="noopener noreferrer" class="link-button">
+                Sitio Web
+            </a>
+        </div>
+
+        <footer>
+            <p class="footer-text">© 2026 Daniel Maca. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
